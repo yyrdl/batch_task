@@ -1,0 +1,10 @@
+#intellij config
+.idea
+
+#npm dependency
+node_modules
+
+#npm log
+npm-debug.log
+
+build

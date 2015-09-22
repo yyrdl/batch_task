@@ -1,0 +1,17 @@
+{
+  "name": "batch_task",
+  "version": "1.0.0",
+  "description": "最近总是遇到批量查询处理数据的任务，有时任务量很大就必须将任务分成若干批次，然后分批次\r   处理，于是创作了这个工具。",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "batch"
+  ],
+  "author": "yyrdl",
+  "license": "ISC"
+}
