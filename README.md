@@ -3,10 +3,12 @@
   处理，于是创作了这个工具。
 
 ## 用法示例
-
+`
+  npm install batch_task
+`
   work with Promise
 ```javascript
-   var BatchTask=require("../index.js");
+   var BatchTask=require("batch_task");
    var data=[];
    for(var i=0;i<1000;i++)
    {
@@ -16,6 +18,7 @@
    var options={
        "scale":100,//how many datas to deal per time ,they will be lanched at the same time
        "data":data,//the data must be an array
+       "log":true,//will log the progress
        "operation":function(i){
            //if the operation need time to accomplish(such as http request) ,you can return a Promise;
            //if some error occured ,the result of this operation will return undefined ,each operation is

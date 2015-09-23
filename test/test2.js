@@ -12,6 +12,7 @@ for(var i=0;i<1000;i++)
 var options={
     "scale":100,
     "data":data,
+    "log":true,
     "operation":function(i){
         //if the operation need time to accomplish(such as http request) ,you can return a Promise;
         //if some error occured ,the result of this operation will return undefined ,each operation is
