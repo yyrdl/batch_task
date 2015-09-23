@@ -6,7 +6,8 @@
 `
   npm install batch_task
 `
-  work with Promise
+work with Promise
+
 ```javascript
    var BatchTask=require("batch_task");
    var data=[];
