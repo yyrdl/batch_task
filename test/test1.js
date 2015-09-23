@@ -11,7 +11,7 @@ var options={
     "scale":100,
     "data":data,
     "operation":function(i){
-        return i-1;
+        //return i-1;
     }
 };
 
